@@ -1,0 +1,140 @@
+<resources>
+    <string name="app_name">Locainfo</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+    <string-array name="ciano">
+        <item></item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+
+    </string-array>
+    <string-array name="magento">
+        <item></item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+
+    </string-array>
+    <string-array name="yellow">
+        <item></item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+
+    </string-array>
+    <string-array name="black">
+        <item></item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+
+    </string-array>
+    <string-array name="blackoutra">
+        <item>Modelo - MPS5502mb(P/B)</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4 </item>
+        <item>5 </item>
+        <item>6 </item>
+        <item>7 </item>
+        <item>8 </item>
+        <item>9 </item>
+        <item>10</item>
+
+    </string-array>
+    <string-array name="papel">
+        <item>Está precisando de papeis?</item>
+        <item>2 resmas</item>
+        <item>5 resmas</item>
+        <item>1 caixa</item>
+        <item>2 caixas</item>
+        <item>3 caixas</item>
+        <item>4 caixas</item>
+        <item>5 caixas</item>
+        <item>6 caixas</item>
+        <item>7 caixas</item>
+        <item>8 caixas</item>
+        <item>9 caixas</item>
+        <item>10 caixas</item>
+
+    </string-array>
+    <string-array name="modelo_marca">
+        <item>Modelo</item>
+        <item>MPS5502mb(P/B)</item>
+        <item>ES8473MFP(COLORIDO)</item>
+    </string-array>
+
+    <string-array name="codigo_problema">
+
+        <item>Black image drum near life</item>
+        <item>Image drum near end of life</item>
+        <item>Erro Flash PU</item>
+        <item>PU communication error</item>
+        <item>Belt Drive End of Life</item>
+        <item>Scanner lamp error</item>
+        <item>Outro(s)</item>
+
+
+
+    </string-array>
+
+    <string-array name="problema_codigo2">
+        <item>Image Drum M. Error: 695</item>
+        <item>Image Drum C. Error: 696</item>
+        <item>Y-Picture Drum Error: 694</item>
+        <item>Image drum K. Error: 697</item>
+        <item>Fuser life</item>
+        <item>Image drum near end of life</item>
+        <item>Erro Flash PU</item>
+        <item>PU communication error</item>
+        <item>Belt Drive End of Life</item>
+        <item>Erro da lâmpada do scanner</item>
+        <item>Scanner lamp error</item>
+        <item>Outro(s)</item>
+    </string-array>
+
+
+</resources>

@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/back_p"
+    tools:context=".SuplimentoActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="14dp"
+
+
+        >
+
+        <ImageView
+
+            android:id="@+id/imageView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/suplimentos_2" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="55dp"
+        android:background="#ADFF2F"
+        android:orientation="horizontal"
+        >
+       <Spinner
+            android:layout_centerInParent="true"
+            android:id="@+id/papelId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        >
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="    Está precisando de tinta?"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            android:layout_marginLeft="10dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="40dp"
+        android:background="#ADFF2F"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:background="@android:color/black"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="Black"
+            android:textColor="@android:color/white"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <Spinner
+            android:id="@+id/spinnerBlackId"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+         />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+    android:background="#ADFF2F"
+        >
+
+        <TextView
+            android:id="@+id/modelo2Id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="    Modelo - ES8473 MFP (Colorido)"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:background="#ADFF2F"
+        android:layout_marginLeft="10dp">
+
+        <TextView
+            android:id="@+id/magen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:background="#ffff0000"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="Magento"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:background="@android:color/holo_blue_light"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="Ciano"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:background="#DCDC0B"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="Yellow"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:background="@android:color/black"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="Black"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:background="#ADFF2F"
+        android:layout_marginLeft="10dp"
+        >
+
+        <Spinner
+
+            android:id="@+id/cianoId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            />
+
+        <Spinner
+            android:id="@+id/yellowId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+
+        <Spinner
+            android:id="@+id/blackId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+          />
+
+        <Spinner
+            android:id="@+id/magentoId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+           />
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/listViewIdSupli"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/cianoId"
+        android:layout_marginTop="45dp"
+        android:layout_marginLeft="10dp"
+        android:background="#FFFF00" />
+
+
+    <Button
+        android:id="@+id/buttonSupId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="135dp"
+        android:background="#FFFFFF"
+        android:text="Enviar" />
+
+
+</LinearLayout>
